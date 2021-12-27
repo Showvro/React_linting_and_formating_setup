@@ -4,25 +4,25 @@
 
 ## Table of Contents
 
-- [How to run](#how-to-run)
+- [How to clone](#how-to-clone)
 - [Editor Setup](#editor-setup)
   - [Plugins](#plugins)
   - [Settings](#settings)
-  - [Set Line Breaks](#set-line-breaks)
 - [Linting Setup](#linting-setup)
   - [Install Dev Dependencies](#install-dev-dependencies)
   - [Create Linting Configuration file manually](#create-linting-configuration-file-manually)
 - [Contact](#contact)
 
-<!-- HOW TO RUN -->
+<!-- HOW TO CLONE -->
 
-## How to run
+## How to clone
 
-Please follow the below instructions to run this project in your computer:
+Please follow the below instructions to clone this repo in your computer:
 
 1. Clone this repository
+
    ```sh
-   git clone https://github.com/learnwithsumit/think-in-a-react-way.git
+   git clone https://github.com/Showvro/react_workbench_setup.git
    ```
 
 <!-- Editor Setup -->
@@ -78,13 +78,12 @@ Follow the below settings for VS Code -
 }
 ```
 
-<img src="public/line-feed.jpg" alt="Line Feed" width="700">
 
 ## Linting Setup
 
 ### Install Dev Dependencies
 
-You can also add a new script in the scripts section like below to install everything with a single command:
+You can add a new script in the scripts section like below to install everything with a single command:
 
 ```json
 scripts: {
