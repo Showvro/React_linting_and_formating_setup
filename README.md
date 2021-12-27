@@ -10,7 +10,7 @@
   - [Settings](#settings)
 - [Linting Setup](#linting-setup)
   - [Install Dev Dependencies](#install-dev-dependencies)
-  - [Create Linting Configuration file manually](#create-linting-configuration-file-manually)
+  - [Create Linting Configuration](#create-linting-configuration)
 - [Contact](#contact)
 
 <!-- HOW TO CLONE -->
@@ -85,21 +85,28 @@ Follow the below settings for VS Code -
 
 You can add a new script in the scripts section like below to install everything with a single command:
 
-```json
-scripts: {
-    "lint": "yarn add -D prettier && yarn add -D babel-eslint && npx install-peerdeps --dev eslint-config-airbnb && yarn add -D eslint-config-prettier eslint-plugin-prettier"
-}
+```script.json
+
+"lint": "yarn add -D prettier && yarn add -D babel-eslint && npx install-peerdeps --dev eslint-config-airbnb && yarn add -D eslint-config-prettier eslint-plugin-prettier"
+
 ```
 
-and then simply run the below command in the terminal -
+Then simply run the below command in the terminal -
 
 ```sh
+
 yarn lint #or 'npm run lint'
+
 ```
 
-### Create Linting Configuration file manually
+### Then copy this command to create .eslintrc file
 
-Create a `.eslintrc` file in the project root and enter the below contents:
+```eslintrc
+
+touch .eslintrc
+
+```
+### And copy this Configuration to .eslintrc
 
 ```json
 {
@@ -156,12 +163,3 @@ Create a `.eslintrc` file in the project root and enter the below contents:
 ## Contact
 
 Showvro Roy - [showvro.roy@gmail.com](mailto:showvro.roy@gmail.com)
-
-<!-- MARKDOWN LINKS & IMAGES -->
-
-[facebook-shield]: https://img.shields.io/badge/-Facebook-black.svg?style=flat-square&logo=facebook&color=555&logoColor=white
-[facebook-url]: https://facebook.com/showvro1
-[instagram-shield]: https://img.shields.io/badge/-Instagram-black.svg?style=flat-square&logo=instagram&color=555&logoColor=white
-[instagram-url]: https://instagram.com/showvro
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/company/showvro
