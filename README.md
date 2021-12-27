@@ -1,4 +1,4 @@
-<p align="center"> <h3 align="center"><a href="https://github.com/Showvro/react_workbench_setup">⚡ React editor Linting and Formating Setup</a></h3>
+<p align="center"> <h3 align="center"><a href="https://github.com/Showvro/react_workbench_setup">⚡ React Editor Linting and Formating Setup</a></h3>
 
 <!-- TABLE OF CONTENTS -->
 
