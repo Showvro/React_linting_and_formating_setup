@@ -37,7 +37,7 @@ You need to install the below plugins:
 
 - ESLint by Dirk Baeumer
 - Prettier - Code formatter by Prettier
-- Dracula Official Theme (optional)
+- Monokai Pro Theme (optional)
 
 ### Settings
 
@@ -50,7 +50,7 @@ Follow the below settings for VS Code -
 ```json
 {
   // Theme
-  "workbench.colorTheme": "Dracula",
+  "workbench.colorTheme": "Monokai Pro",
 
   // config related to code formatting
   "editor.defaultFormatter": "esbenp.prettier-vscode",
