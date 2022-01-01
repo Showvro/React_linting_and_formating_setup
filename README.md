@@ -106,7 +106,7 @@ touch .eslintrc
 
 ```
 
-### And copy this Configuration to .eslintrc
+### And copy this configuration to .eslintrc
 
 ```json
 {
