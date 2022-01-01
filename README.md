@@ -43,7 +43,7 @@ You need to install the below plugins:
 
 Follow the below settings for VS Code -
 
-1. Create a new folder called ".vscode" inside the project root folder
+1. Create a new folder called ".vscode" inside the project root folder.
 2. Create a new file called "settings.json" inside that folder.
 3. Paste the below json in the newly created settings.json file and save the file.
 
@@ -78,7 +78,6 @@ Follow the below settings for VS Code -
 }
 ```
 
-
 ## Linting Setup
 
 ### Install Dev Dependencies
@@ -106,6 +105,7 @@ yarn lint #or 'npm run lint'
 touch .eslintrc
 
 ```
+
 ### And copy this Configuration to .eslintrc
 
 ```json
