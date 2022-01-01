@@ -10,7 +10,7 @@
   - [Settings](#settings)
 - [Linting Setup](#linting-setup)
   - [Install Dev Dependencies](#install-dev-dependencies)
-  - [Create Linting Configuration](#create-linting-configuration)
+  - [Lint Configuration](#lint-configuration)
 - [Contact](#contact)
 
 <!-- HOW TO CLONE -->
@@ -50,7 +50,7 @@ Follow the below settings for VS Code -
 ```json
 {
   // Theme
-  "workbench.colorTheme": "Monokai Pro",
+  "workbench.colorTheme": "Monokai Pro", //or your theme name
 
   // config related to code formatting
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -98,7 +98,9 @@ yarn lint #or 'npm run lint'
 
 ```
 
-### Then copy this command to create .eslintrc file
+After installing all dependencies, go to your package.json file and change the `"babel-eslint": "^10.0.2"` line to `"@babel/eslint-parser": "^7.5.4"` in your devDependencies section.
+
+### Then copy this command to create .eslintrc file or you can create a file manually
 
 ```eslintrc
 
@@ -106,7 +108,9 @@ touch .eslintrc
 
 ```
 
-### And copy this configuration to .eslintrc
+## Lint Configuration
+
+And copy this Lint Configuration to .eslintrc
 
 ```json
 {
@@ -117,9 +121,10 @@ touch .eslintrc
     "prettier",
     "plugin:jsx-a11y/recommended"
   ],
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
   "parserOptions": {
-    "ecmaVersion": 8
+    "ecmaVersion": 8,
+    "requireConfigFile": false,
   },
   "env": {
     "browser": true,
